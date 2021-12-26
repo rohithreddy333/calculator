@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Gotham Rounded", sans-serif;
+    background: #00F260;  
+    background: linear-gradient(to right, #0575E6, #00F260);  
+}
+
+.display {
+    width: 12.4em;
+    height: 4em;
+    background-color: #00362c;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+h2{
+    font-weight: normal;
+}
+.row {
+    display: flex;
+}
+
+.square {
+    width: 3em;
+    height: 3em;
+    background-color: #bff6ea;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}
+
+.rectangle {
+    width: 6.1em;
+    height: 3em;
+    background-color: #bff6ea;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}
+
+.body{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    width: 3em;
+    height: 3em;
+}

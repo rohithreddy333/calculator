@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>codedamn Project</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
+	</head>
+	<body>
+		<!-- start writing your code -->
+        <div class="body">
+            <section id="display" class="display">
+                <h2>0</h2>
+            </section>
+            <div class="row">
+                <span id="ac" onclick="allClear()" class="rectangle">AC</span>
+                <span id="del" onclick="del()" class="square">DEL</span>
+                <span id="div" onclick="operation(this.id)" class="square">/</span>
+            </div>
+            <div class="row">
+                <span id="one" onclick="sendVal(this.id)" class="square">1</span>
+                <span id="two" onclick="sendVal(this.id)" class="square">2</span>
+                <span id="three" onclick="sendVal(this.id)" class="square">3</span>
+                <span id="mul" onclick="operation(this.id)" class="square">*</span>
+            </div>
+            <div class="row">
+                <span id="four" onclick="sendVal(this.id)" class="square">4</span>
+                <span id="five" onclick="sendVal(this.id)" class="square">5</span>
+                <span id="six" onclick="sendVal(this.id)" class="square">6</span>
+                <span id="add" onclick="operation(this.id)" class="square">+</span>
+            </div>
+            <div class="row">
+                <span id="seven" onclick="sendVal(this.id)" class="square">7</span>
+                <span id="eight" onclick="sendVal(this.id)" class="square">8</span>
+                <span id="nine" onclick="sendVal(this.id)" class="square">9</span>
+                <span id="sub" onclick="operation(this.id)" class="square">-</span>
+            </div>
+            <div class="row">
+                <span id="dot" onclick="sendVal(this.id)" class="square">.</span>
+                <span id="zero" onclick="sendVal(this.id)" class="square">0</span>
+                <span id="equal" onclick="compute()" class="rectangle">=</span>
+            </div>
+        </div>
+        
+	</body>
+</html>
